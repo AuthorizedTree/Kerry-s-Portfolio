@@ -2,23 +2,59 @@ import React from "react";
 import styles from "./AboutMe.module.css";
 import { getImageUrl } from "../../utils";
 
-export const Myself = () => {
+export const AboutMe = () => {
     return ( 
         <section className = {styles.container}>
-            <div className = {styles.content}>
-                <h1 className = {styles.title}>
-                    Hello, My name is Kerry Xiao.
-                </h1>
-                <p className = {styles.description}>I am computer science student at the University of Virginia who is interested in software engineering, cybersecurity and network engineering.</p>
-                <a href="mailto:kerryyaoxiao@outlook.com" className = {styles.contactBtn}>Contact Me</a>
+            <h2 className = {styles.title}>About Me</h2>
+            <div className={styles.content}>
+                <img
+                    src={getImageUrl("about/aboutImage.png")}
+                    alt="This is an image of me."
+                    className={styles.aboutImage}
+                />
+                <ul className={styles.aboutItems}>
+                    <li className={styles.aboutItem}>
+                        <img
+                            src={getImageUrl("about/cursorIcon.png")}
+                            alt="This is an image of me."
+                        />
+                        <div className={styles.aboutItemText}>
+                            <h3>Frontend Developer</h3>
+                            <p>I am a frontend developer with experience with building websites.</p>
+                        </div>
+                    </li>
+                    <li className={styles.aboutItem}>
+                        <img
+                            src={getImageUrl("about/serverIcon.png")}
+                            alt="This is an image of me."
+                        />
+                        <div className={styles.aboutItemText}>
+                            <h3>Backend Developer</h3>
+                            <p>Add some shit here.</p>
+                        </div>
+                    </li>
+                    <li className={styles.aboutItem}>
+                        <img
+                            src={getImageUrl("about/uiIcon.png")}
+                            alt="This is an image of me."
+                        />
+                        <div className={styles.aboutItemText}>
+                            <h3>UI Designer</h3>
+                            <p>Add some shit here.</p>
+                        </div>
+                    </li>
+                    <li className={styles.aboutItem}>
+                        <img
+                            src={getImageUrl("about/uiIcon.png")}
+                            alt="This is an image of me."
+                        />
+                        <div className={styles.aboutItemText}>
+                            <h3>Network Engineer</h3>
+                            <p>Add some shit here.</p> 
+                        </div>
+                    </li>
+                </ul>
             </div>
-            <img 
-                src={getImageUrl("hero/heroImage.png")} 
-                alt="Hero image of me" 
-                className={styles.myselfImg}
-            />
-            <div className={styles.topBlur} />
-            <div className={styles.bottomBlur} />
         </section>
     );
 };

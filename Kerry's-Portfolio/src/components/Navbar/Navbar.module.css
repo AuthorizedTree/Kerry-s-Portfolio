@@ -5,9 +5,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 61px; 
+    padding-top: 50px; 
     z-index: 2;
-    margin: 0 10%;
+    margin: 0 5%;
 }
 
 .title {
@@ -43,8 +43,15 @@
     .navbar {
         flex-direction: column;
         align-items: flex-start;
+        padding-top: 25px;
     }
 
+    .title {
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+        color: var(--color-text);
+    }
 
     .menu {
         position: absolute;
@@ -59,9 +66,8 @@
     .menuBtn {
         display: block;
         cursor: pointer;
-        width: 40px; /* Adjust as needed */
-        height: 40px; /* Adjust as needed */
-        
+        width: 30px; /* Adjust as needed */
+        height: 30px; /* Adjust as needed */
     }
 
     .menuItems {
@@ -78,6 +84,12 @@
         );
         padding: 24px 33px;
         box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    }
+
+    .menuItems a {
+        font-size: 15px;
+        color: var(--color-text);
+        text-decoration: none;
     }
 
     .menuOpen {
