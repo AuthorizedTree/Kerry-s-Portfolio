@@ -8,8 +8,8 @@
   flex-direction: row;
   justify-content: space-evenly;
   width: 100vw;
-  padding: 58px 10%;
-  gap: 10px;
+  padding: 25px 0%;
+  gap: 100px;
 }
 
 .text h2 {
@@ -52,6 +52,18 @@
     gap: 23px;
   }
 
+  .text h2 {
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 4px;
+  }
+
+  .text p {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
+
   .text {
     display: flex;
     flex-direction: column;
@@ -60,5 +72,14 @@
 
   .links {
     align-items: center;
+    margin-top: 10px;
+  }
+
+  .link a {
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
   }
 }

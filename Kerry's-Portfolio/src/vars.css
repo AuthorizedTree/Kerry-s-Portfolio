@@ -3,9 +3,13 @@
     --color-text: #fff;
     --color-primary: #576cbc;
     --color-secondary: #19376d;
+    --color-tertiary: #19376d;
+    --color-quaternary: #19376d;
+    --color-quinary: #19376d;
     --color-dark: #0b2447;
     --color-bg: #04152d;
 
     /* Fonts */
     --font-robot: "Roboto";
+    --font-times_new_roman: "Times New Roman";
 }
