@@ -3,11 +3,11 @@
     --color-text: #fff;
     --color-primary: #576cbc;
     --color-secondary: #19376d;
-    --color-tertiary: #19376d;
-    --color-quaternary: #19376d;
-    --color-quinary: #19376d;
+    --color-tertiary: #04152d;
+    --color-quaternary: #1c0426;
+    --color-quinary: #0e3c44;
     --color-dark: #0b2447;
-    --color-bg: #04152d;
+    --color-bg: #000000;
 
     /* Fonts */
     --font-robot: "Roboto";

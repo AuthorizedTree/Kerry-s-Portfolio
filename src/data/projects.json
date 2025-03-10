@@ -1,16 +1,16 @@
 [
     {
-      "title": "Project A",
+      "title": "Chess Game",
       "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
+      "description": "This is a project made to learn C. I basically made a command line interface chess game that had game saving functionality.",
       "skills": ["React", "Express", "Node"],
       "demo": "https://www.example.com",
       "source": "https://www.github.com"
     },
     {
-      "title": "Project B",
+      "title": "Raspberry Pi Camera",
       "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
+      "description": "This is a project made in python to be able to display the video feed from a rasbperry pi camera module on a webserver.",
       "skills": ["React", "Express", "Node", "Sass"],
       "demo": "https://www.example.com",
       "source": "https://www.github.com"

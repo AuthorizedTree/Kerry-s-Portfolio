@@ -5,10 +5,11 @@ import { getImageUrl } from "../../utils";
 
 export const Contact = () => {
   return (
-    <footer id="contact" className={styles.container}>
+    <footer className={styles.container} id="contact">
       <div className={styles.text}>
         <h2>Contact Information</h2>
         <p>Feel free to reach out!</p>
+        
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>

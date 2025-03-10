@@ -13,8 +13,8 @@ export const Myself = () => {
                 <a href="mailto:kerryyaoxiao@outlook.com" className = {styles.contactBtn}>Contact Me</a>
             </div>
             <img 
-                src={getImageUrl("hero/heroImage.png")} 
-                alt="Hero image of me" 
+                src={getImageUrl("myself/IMG_20250309_152745386_HDR.jpg")} 
+                alt="Image of myself" 
                 className={styles.myselfImg}
             />
             <div className={styles.topBlur} />
