@@ -1,25 +1,33 @@
 @import "../../vars.css";
 
 .navbar {
-    background-color: rgba(17, 17, 56, 0.8);
+    background-color: rgba(44, 33, 50, 0.8);
     position: fixed;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-left: 55px;
-    padding-top: 20px; 
-    padding-bottom: 20px;
+    padding-top: 10px; 
+    padding-bottom: 10px;
     padding-right: 55px;
     z-index: 2;
     margin: 0 0%;
 }
 
 .title {
-    font-size: 30px;
+    font-size: 15px;
     font-weight: 600;
     text-decoration: none;
     color: var(--color-text);
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+.myInitials {
+    width: 40px;
+    height: 40px;
+    display: flex;
 }
 
 .menu {
@@ -28,12 +36,12 @@
 
 .menuItems {
     display: flex;
-    gap: 47px;
+    gap: 30px;
     list-style: none;
 }
 
 .menuItems a {
-    font-size: 18px;
+    font-size: 15px;
     color: var(--color-text);
     text-decoration: none;
 }
@@ -47,15 +55,27 @@
 @media screen and (max-width: 830px) {
     .navbar {
         flex-direction: column;
-        align-items: flex-start;
         padding-top: 20px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .myInitials {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        flex-direction: row;
     }
 
     .title {
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 600;
         text-decoration: none;
         color: var(--color-text);
+        flex-direction: row-reverse;
+        margin-right: 20px;
+        margin-left: 20px;
     }
 
     .menu {
@@ -87,12 +107,12 @@
             rgba(25, 55, 109, 0.2) 0%, 
             rgba(25, 55, 109, 1) 100%
         );
-        padding: 24px 33px;
+        padding: 10px 20px;
         box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
     }
 
     .menuItems a {
-        font-size: 20px;
+        font-size: 15px;
         color: var(--color-text);
         text-decoration: none;
     }
