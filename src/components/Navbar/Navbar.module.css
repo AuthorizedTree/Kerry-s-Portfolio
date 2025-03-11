@@ -15,6 +15,12 @@
     margin: 0 0%;
 }
 
+.leftContainer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 .title {
     font-size: 15px;
     font-weight: 600;
@@ -55,17 +61,16 @@
 @media screen and (max-width: 830px) {
     .navbar {
         flex-direction: column;
-        padding-top: 20px;
+        padding-top: 10px;
         display: flex;
         align-items: flex-start;
         justify-content: center;
     }
 
-    .myInitials {
-        width: 40px;
-        height: 40px;
+    .leftContainer {
         display: flex;
-        flex-direction: row;
+        align-items: center;
+        gap: 0px;
     }
 
     .title {
@@ -74,7 +79,7 @@
         text-decoration: none;
         color: var(--color-text);
         flex-direction: row-reverse;
-        margin-right: 20px;
+        margin-right: 0px;
         margin-left: 20px;
     }
 
