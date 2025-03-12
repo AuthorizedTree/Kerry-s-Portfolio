@@ -1,6 +1,7 @@
 @import "../../vars.css";
 
 .container {
+    scroll-margin-top: 60px;
     position: relative;
     background-color: rgba(42, 17, 56, 0.6);
     border-radius: 15px;
