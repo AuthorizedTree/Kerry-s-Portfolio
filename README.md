@@ -1,4 +1,4 @@
-This portfolio is a work in progress.
+This is Kerry Xiao's portfolio which is to list his projects, experience, and skills.
 
 
 
@@ -16,3 +16,4 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*/
