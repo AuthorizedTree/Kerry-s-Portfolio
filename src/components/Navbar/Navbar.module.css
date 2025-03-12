@@ -92,12 +92,20 @@
         gap: 11px;
         z-index: 3;
     }
+    
+    .menuItemsContainer {
+        position: absolute;
+        top: 100%; /* Position the menu items below the menu button */
+        right: 0;
+        z-index: 3;
+    }
 
     .menuBtn {
         display: block;
         cursor: pointer;
         width: 30px; /* Adjust as needed */
         height: 30px; /* Adjust as needed */
+        margin-top: 0px;
     }
 
     .menuItems {

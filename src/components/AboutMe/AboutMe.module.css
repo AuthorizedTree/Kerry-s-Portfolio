@@ -2,7 +2,7 @@
 
 .container {
     position: relative;
-    background-color: rgba(17, 17, 56, 0.6);
+    background-color: rgba(42, 17, 56, 0.6);
     border-radius: 15px;
     padding: 50px;
     margin-top: 100px;
@@ -73,6 +73,26 @@
 
 .aboutItemText p {
     font-size: 20px;
+}
+
+.neonWebsite {
+    width: 60px;
+    margin-right: 10px;
+}
+
+.linuxPenguin {
+    width: 60px;
+    margin-right: 10px;
+}
+
+.neonProgrammingLanguage {
+    width: 60px;
+    margin-right: 10px;
+}
+
+.router {
+    width: 60px;
+    margin-right: 10px;
 }
 
 @media screen and (max-width: 830px) {
