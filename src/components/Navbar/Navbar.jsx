@@ -8,7 +8,7 @@ export const Navbar = () => {
         <nav className={styles.navbar}>
             <div className={styles.leftContainer}>
                 <img 
-                    src={getImageUrl("nav/KX.png")} 
+                    src={getImageUrl("nav/KX.png")}
                     alt="Image of initials" 
                     className={styles.myInitials}
                 />
