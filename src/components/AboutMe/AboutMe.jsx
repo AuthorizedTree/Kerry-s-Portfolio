@@ -8,14 +8,14 @@ export const AboutMe = () => {
             <h2 className = {styles.title}>About Me</h2>
             <div className={styles.content}>
                 <img
-                    src={getImageUrl("about/IMG_20250309_153120722.jpg")}
+                    src="/assets/about/IMG_20250309_153120722.jpg"
                     alt="This is an image of me."
                     className={styles.aboutImage}
                 />
                 <ul className={styles.aboutItems}>
                     <li className={styles.aboutItem}>
                         <img
-                            src={getImageUrl("about/website-development-neon-label-vector-26918220.png")}
+                            src="/assets/about/website-development-neon-label-vector-26918220.png"
                             alt="Neon Website Development."
                             className={styles.neonWebsite}
                         />
@@ -26,7 +26,7 @@ export const AboutMe = () => {
                     </li>
                     <li className={styles.aboutItem}>
                         <img
-                            src={getImageUrl("about/linux_penguin.png")}
+                            src="/assets/about/linux_penguin.png"
                             alt="This is an image of the linux mascot."
                             className={styles.linuxPenguin}
                         />
@@ -37,7 +37,7 @@ export const AboutMe = () => {
                     </li>
                     <li className={styles.aboutItem}>
                         <img
-                            src={getImageUrl("about/glowing-neon-line-programming-language.png")}
+                            src="/assets/about/glowing-neon-line-programming-language.png"
                             alt="Neon Programming Language."
                             className={styles.neonProgrammingLanguage}
                         />
@@ -48,8 +48,8 @@ export const AboutMe = () => {
                     </li>
                     <li className={styles.aboutItem}>
                         <img
-                            src={getImageUrl("about/Router.png")}
-                            alt="This is an image of me."
+                            src="/assets/about/Router.png"
+                            alt="This is an image of a router."
                             className={styles.router}
                         />
                         <div className={styles.aboutItemText}>

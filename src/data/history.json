@@ -5,7 +5,7 @@
     "startDate": "Aug, 2023",
     "endDate": "Dec, 2023",
     "experiences": ["Supervised lab section; assisted students in applying course concepts to lab tasks and overcoming challenges", "Graded student lab and class assignments; provided constructive feedback for improvement", "Collaborated with other Teaching Assistants and Professor to improve course", "Proctored Student Examinations"],
-    "imageSrc": "history/Purdue_Boilermakers_logo.png"
+    "imageSrc": "/assets/history/Purdue_Boilermakers_logo.png"
   },
   {
     "role": "Teaching Assistant for Network Engineering Fundamentals",
@@ -13,6 +13,6 @@
     "startDate": "Aug, 2023",
     "endDate": "May, 2024",
     "experiences": ["Supported and maintained infrastructural computing labs", "Managed and setup switches and routers", "Coordinated with manager and professors to plan laboratory designs"],
-    "imageSrc": "history/Purdue_Boilermakers_logo.png"
+    "imageSrc": "/assets/history/Purdue_Boilermakers_logo.png"
   }
 ]
