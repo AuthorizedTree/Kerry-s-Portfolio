@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./AboutMe.module.css";
-import { getImageUrl } from "../../utils";
+//import { getImageUrl } from "../../utils";
 
 export const AboutMe = () => {
     return ( 
