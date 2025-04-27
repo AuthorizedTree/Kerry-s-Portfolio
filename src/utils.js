@@ -1,7 +1,4 @@
 export const getImageUrl = (path) => {
-    if (process.env.NODE_ENV === 'production') {
-        return `/assets/${path}`;
-    }
     return new URL([`../assets/${path}`], import.meta.url).href;
 
     /*

@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import styles from "./Navbar.module.css";
-import { getImageUrl } from "../../utils";
+//import { getImageUrl } from "../../utils";
 
 export const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -8,8 +8,11 @@ export const Navbar = () => {
         <nav className={styles.navbar}>
             <div className={styles.leftContainer}>
                 <img 
-                    src={getImageUrl("nav/KX.png")}
-                    alt="Image of initials" 
+                    //src={getImageUrl("nav/KX.png")}
+                    //alt="Image of initials" 
+                    //className={styles.myInitials}
+                    src="/assets/nav/KX.png" 
+                    alt="Image of initials"
                     className={styles.myInitials}
                 />
                 <a className={styles.title }href="/">My Portfolio</a>
