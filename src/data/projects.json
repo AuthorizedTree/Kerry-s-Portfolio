@@ -1,7 +1,7 @@
 [
     {
       "title": "Chess Game",
-      "imageSrc": "/assets/projects/project.png",
+      "imageSrc": "/assets/projects/Chess.png",
       "description": "This is a project made to learn C which is a command line interface chess game that had game saving functionality.",
       "skills": ["React", "Express", "Node"],
       "demo": "https://www.example.com",
@@ -9,7 +9,7 @@
     },
     {
       "title": "Raspberry Pi Camera",
-      "imageSrc": "/assets/projects/project.png",
+      "imageSrc": "/assets/projects/raspberry-pi-camera.png",
       "description": "This is a project made in python to be able to display the video feed from a rasbperry pi camera module on a webserver.",
       "skills": ["React", "Express", "Node", "Sass"],
       "demo": "https://www.example.com",
