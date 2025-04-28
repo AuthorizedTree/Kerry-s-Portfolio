@@ -21,7 +21,7 @@ export const AboutMe = () => {
                         />
                         <div className={styles.aboutItemText}>
                             <h3>Web Development</h3>
-                            <p>Experienced with HTML and CSS for structuring and styling responsive web pages. Experienced with modern web frameworks like ReactJS, Vue.js, and Node.js to develop interactive and scalable web applications.</p>
+                            <p>Experienced with HTML and CSS for structuring and styling responsive web pages. Experienced with modern web frameworks like ReactJS and Node.js to develop interactive and scalable web applications.</p>
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
