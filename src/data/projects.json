@@ -14,5 +14,21 @@
       "skills": ["React", "Express", "Node", "Sass"],
       "demo": "https://www.example.com",
       "source": "https://github.com/AuthorizedTree/PiCamera"
+    },
+    {
+      "title": "CodeFriend",
+      "imageSrc": "/assets/projects/codefriend.png",
+      "description": "Lightweight coding assistant to help user generate code and explain explain concepts.",
+      "skills": ["React", "Express", "Node", "Sass"],
+      "demo": "code-friend-ai.vercel.app",
+      "source": "https://github.com/AuthorizedTree/CodeFriend"
+    },
+    {
+      "title": "MockMate",
+      "imageSrc": "/assets/projects/mockmate.png",
+      "description": "MockMate is a full-stack, AI-powered, voice-enabled interview preparation platform designed to help users simulate real interview scenarios and receive tailored feedback instantly.",
+      "skills": ["React", "Express", "Node", "Sass"],
+      "demo": "mockmate-voiceagent.vercel.app/",
+      "source": "https://github.com/AuthorizedTree/MockMate"
     }
   ]
